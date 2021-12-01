@@ -225,11 +225,11 @@ function esVocal(letra) {
   //console.log("es vocal", letra);
   var ban = false;
   if (letra.length == 1) {
-    if (letra == "a") ban = true;
-    if (letra == "e") ban = true;
-    if (letra == "i") ban = true;
-    if (letra == "o") ban = true;
-    if (letra == "u") ban = true;
+    if (letra == "a" || letra == "A") ban = true;
+    if (letra == "e" || letra == "E") ban = true;
+    if (letra == "i" || letra == "I") ban = true;
+    if (letra == "o" || letra == "O") ban = true;
+    if (letra == "u" || letra == "U") ban = true;
   }
   if (ban == true) return "Es vocal";
   else return "Dato incorrecto";
