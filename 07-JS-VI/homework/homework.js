@@ -71,7 +71,7 @@ function filter(array) {
       return elemento;
     }
   });
-  console.log(array2);
+  //console.log(array2);
   return array2;
 }
 
